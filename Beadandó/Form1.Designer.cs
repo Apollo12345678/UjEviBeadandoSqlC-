@@ -170,6 +170,7 @@
             this.harcosokListBox.Name = "harcosokListBox";
             this.harcosokListBox.Size = new System.Drawing.Size(154, 199);
             this.harcosokListBox.TabIndex = 14;
+            this.harcosokListBox.SelectedIndexChanged += new System.EventHandler(this.harcosokListBox_SelectedIndexChanged);
             // 
             // label8
             // 
@@ -187,6 +188,7 @@
             this.kepessegListBox.Name = "kepessegListBox";
             this.kepessegListBox.Size = new System.Drawing.Size(120, 199);
             this.kepessegListBox.TabIndex = 16;
+            this.kepessegListBox.SelectedIndexChanged += new System.EventHandler(this.kepessegListBox_SelectedIndexChanged);
             // 
             // label9
             // 
@@ -213,15 +215,17 @@
             this.modositButton.TabIndex = 19;
             this.modositButton.Text = "Módosít";
             this.modositButton.UseVisualStyleBackColor = true;
+            this.modositButton.Click += new System.EventHandler(this.modositButton_Click);
             // 
             // torlesButton
             // 
-            this.torlesButton.Location = new System.Drawing.Point(173, 520);
+            this.torlesButton.Location = new System.Drawing.Point(212, 509);
             this.torlesButton.Name = "torlesButton";
             this.torlesButton.Size = new System.Drawing.Size(75, 23);
             this.torlesButton.TabIndex = 20;
             this.torlesButton.Text = "Törlés";
             this.torlesButton.UseVisualStyleBackColor = true;
+            this.torlesButton.Click += new System.EventHandler(this.torlesButton_Click);
             // 
             // Form1
             // 
